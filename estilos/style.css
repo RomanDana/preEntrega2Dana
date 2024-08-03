@@ -1,0 +1,165 @@
+
+/*CSS general*/
+*{
+    padding: 0;
+    margin: 0;
+}
+.fondohuella{
+    background-image: url(../imagenes/fondo.jpg);
+}
+body{
+    font-family: "Roboto Slab", serif;
+    background-color: #fce5c9;
+}
+header{
+    text-align: center;
+    background-color: #d6ba96;
+    padding: 25px;
+}
+h1{
+    text-align: center;
+    color: #cf9951;
+    padding:15px;
+    font-size: 3rem;
+}
+h2{
+    text-align: center;
+    color: #886332;
+    padding:20px;
+    font-size: 2.5rem;
+}
+h3{
+    line-height: 2rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #cf9951;
+    padding: 12px;
+}
+header img{
+    width: 200px;
+    padding:15px;
+    margin-top:15px;
+    border: double 5px #886332
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    margin: 20px;
+    display: inline-block;
+}
+header nav ul li a{
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    text-decoration: none;
+    border: #886332 8px double;
+
+}
+p{
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: black;
+    margin: 10px; 
+    padding: 15px;
+}
+.redes{
+    text-align: center;
+    color:  #af8043;
+}
+/*CSS inicio*/
+.descripcion{
+    font-size: 25px;
+    text-align: center;
+    color: #000000;
+    margin: 20px;
+    padding: 20px;
+}
+.imagenes-inicio img{
+text-align: center;
+width: 400px;
+border-radius: 20px;
+margin-top:15px;
+padding:15px;
+border: double 5px #886332
+}
+/*CSS nosotros*/
+.mapa{
+    text-align: center;
+    padding: 20px;
+    object-fit: cover;
+}
+h5{
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+}
+.conclusion{
+    padding: 30px;
+}
+/*CSS productos*/
+.section-img{
+    text-align: center;
+    font-style: italic;
+}
+.section-img img{
+    border-radius: 30px;
+    width: 400px;
+    margin-top:15px;
+    border: double 5px #886332
+}
+.letras img{
+    width: 250px;
+    border-radius: 40px;
+    text-align: center;
+    margin-top:15px;
+    border: double 5px #886332
+}
+section li{
+    font-size: 30px;
+    font-weight: 20px;
+    text-decoration: underline;
+   
+}
+/*CSS contacto*/
+.comentarios{
+    text-align: center;
+}
+/*CSS formulario de compra*/
+form{
+    margin-top: 15px;
+    padding: 20px;
+    font-size: 20px;
+}
+.formulario div input {
+    text-align: center;
+    font-size: 20px;
+    background-color:#d6ba96;;
+}
+.formulario div input{
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+    background-color:#d6ba96;;
+}
+.formulario div select{
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+    background-color:#d6ba96;;  
+}
+.form{
+    text-align: left;
+    margin-top: 20px;
+
+}
+.finalizar-pedido{
+    font-size: 20px;
+}
+footer{
+background-color:#d6ba96; 
+text-align: right;
+padding: 30px;
+}
