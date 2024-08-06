@@ -6,21 +6,27 @@
 }
 .fondohuella{
     background-image: url(../imagenes/fondo.jpg);
+
 }
 body{
     font-family: "Roboto Slab", serif;
     background-color: #fce5c9;
+  
 }
 header{
     text-align: center;
     background-color: #d6ba96;
     padding: 25px;
 }
+.header{
+    position: sticky;
+    top:0;
+}
 h1{
     text-align: center;
-    color: #cf9951;
+    color: white;
     padding:15px;
-    font-size: 3rem;
+    font-size: 5rem;
 }
 h2{
     text-align: center;
@@ -35,11 +41,14 @@ h3{
     color: #cf9951;
     padding: 12px;
 }
-header img{
-    width: 200px;
+.logo{
+    width: 150px;
     padding:15px;
-    margin-top:15px;
-    border: double 5px #886332
+    margin-top:5px;
+    border: double 5px #886332;   
+}
+header nav{
+    background-color: #d6ba96;
 }
 header nav ul{
     list-style-type: none;
@@ -51,11 +60,20 @@ header nav ul li{
 header nav ul li a{
     text-align: center;
     color: white;
-    font-size: 1.5rem;
-    font-weight: lighter;
+    font-size: 2rem;
+    font-weight: bolder;
     text-decoration: none;
     border: #886332 8px double;
-
+}
+header nav ul li a:hover{
+    color: #d6ba96;
+    border: #886332 8px double;
+    background-color: white;    
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
 p{
     line-height: 1.5rem;
@@ -81,9 +99,9 @@ p{
 text-align: center;
 width: 400px;
 border-radius: 20px;
-margin-top:15px;
+margin: 15px 0px 30px 15px;
 padding:15px;
-border: double 5px #886332
+border: double 5px #886332;
 }
 /*CSS nosotros*/
 .mapa{
@@ -103,19 +121,74 @@ h5{
 .section-img{
     text-align: center;
     font-style: italic;
+    display: grid;
+    grid-template-rows: 2fr;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+.section-img div{
+    margin-bottom: 50px;
+}
+.section-img-2{
+    font-style: italic;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center; 
 }
 .section-img img{
     border-radius: 30px;
     width: 400px;
-    margin-top:15px;
-    border: double 5px #886332
+    margin:30px;
+    border: double 5px #886332;
 }
-.letras img{
+.img1 img{
+    width: 550px;
+}
+.letra-img{
+    color: white;
+    background-color: #af8043fe;
+}
+.img1{
+    background-color: #af80439f;
+    width: 80%;
+    height: 90%;
+    margin-left: 100px;
+}
+.img2 img{
     width: 250px;
     border-radius: 40px;
     text-align: center;
     margin-top:15px;
-    border: double 5px #886332
+    border: double 5px #886332;
+}
+.img2{
+    background-color: #af80439f;
+    width: 50%;
+    height: 95%;
+    margin-left: 330px;
+}
+.img3{
+    background-color: #af80439f;
+    width: 50%;
+    height: 50%;
+    margin-left: 250px;
+}
+.img4{
+    background-color: #af80439f;
+    width: 60%;
+    height: 80%;
+    margin-left: 200px;
+}
+.img5{
+    background-color: #af80439f;
+    width: 100%;
+    height: 100%;
+    
+}.img6{
+    background-color: #af80439f;
+    width: 50%;
+    height: 50%;
 }
 section li{
     font-size: 30px;
