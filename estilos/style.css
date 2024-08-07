@@ -111,11 +111,6 @@ margin-left: 30px;
 border: double 5px #886332;
 }
 /*CSS nosotros*/
-.main-nosotros{
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr;  
-}
 .mapa{
     text-align: center;
     padding: 20px;
@@ -239,10 +234,7 @@ section li{
 }
 /*CSS contacto*/
 .comentarios{
-    text-align: center;
-}
-textarea{
-    margin-left: 200px;
+    text-align: left;
 }
 /*CSS formulario de compra*/
 form{
