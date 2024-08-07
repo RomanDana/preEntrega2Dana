@@ -48,6 +48,9 @@ h3{
     margin-top:5px;
     border: double 5px #886332;   
 }
+.logo img{
+    width: 40%;
+}
 header nav{
     background-color: #d6ba96;
 }
@@ -96,11 +99,27 @@ p{
     margin: 20px;
     padding: 20px;
 }
-.imagenes-inicio{
-    display: grid;
-    grid-template-rows: 1fr;
+.imagenes-inicio {  display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-}
+    grid-template-rows: 1fr;
+
+    grid-auto-flow: row;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:
+      "animales1 animales2 animales3 animales4";
+  }
+  
+  .animales1 { grid-area: animales1; }
+  
+  .animales2 { grid-area: animales2; }
+  
+  .animales3 { grid-area: animales3; }
+  
+  .animales4 { grid-area: animales4; }
+  
 .imagenes-inicio img{
 text-align: center;
 max-width:400px;
@@ -125,17 +144,10 @@ h5{
     padding: 30px;
 }
 /*CSS productos*/
-.main-productos{
-    display: grid;
-    grid-template-rows: 6fr;
-    grid-template-columns: 1fr;
-}
 .section-img{
     text-align: center;
     font-style: italic;
-    /*display: grid;
-    grid-template-rows: 3fr;
-    grid-template-columns: 1fr 1fr;*/
+
     justify-content: center;
 }
 .section-img div{
@@ -143,10 +155,6 @@ h5{
 }
 .section-img-2{
     font-style: italic;
-    /*display: grid;
-    grid-template-rows: 2fr;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;*/
     justify-content: center; 
 }
 .section-img img{
@@ -168,11 +176,11 @@ h5{
 
 .img1{
     background-color: #af80439f;
-    width: 80%;
-    margin-left: 170px;
+    width: 100%;
+
 }
 .img2 img{
-    width: 300px;
+    width: 500px;
     border-radius: 40px;
     text-align: center;
     margin-top:15px;
@@ -180,29 +188,26 @@ h5{
 }
 .img2{
     background-color: #af80439f;
-    width: 50%;
-    margin-left: 460px;
+    width: 100%;
 }
 .img3{
     background-color: #af80439f;
     justify-content: center;
+    width: 100%;
 }
 .img3 img{
     text-align: center;
     width: 30%;
-    height:50%; 
+
 }
 .img4{
     background-color: #af80439f;
-    width: 60%;
-    height: 80%;
-    margin-left: 350px;
+    width: 100%;
+    
     justify-content: center;
 }
 .img4 img{
     width: 500px;
-    margin-left: 70px;
-
 }
 .img5{
     background-color: #af80439f;
@@ -219,12 +224,12 @@ h5{
 }
 .img-collar img{
     width:300px;
+    
 }
 .img6{
     background-color: #af80439f;
-    width: 50%;
-    height: 50%;
-    margin-left: 480px;
+    width: 100%;
+
 }
 section li{
     font-size: 30px;
