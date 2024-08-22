@@ -1,5 +1,10 @@
 
 /*CSS general*/
+
+
+/*
+
+
 *{
     padding: 0;
     margin: 0;
@@ -13,6 +18,13 @@ body{
     background-color: #fce5c9;
   
 }
+
+
+*/
+
+
+
+/*
 header{
     text-align: center;
     background-color: #d6ba96;
@@ -87,7 +99,17 @@ p{
     text-align: center;
     color:  #af8043;
 }
+
+*/
+
+
+
 /*CSS inicio*/
+
+
+/*
+
+
 .descripcion{
     font-size: 25px;
     text-align: center;
@@ -126,7 +148,15 @@ border-radius: 20px;
 margin-left: 30px;
 border: double 5px #886332;
 }
+
+
+*/
+
+
 /*CSS nosotros*/
+
+
+/*
 .mapa{
     text-align: center;
     padding: 20px;
@@ -140,7 +170,17 @@ h5{
 .conclusion{
     padding: 30px;
 }
+
+
+*/
+
+
 /*CSS productos*/
+
+
+/*
+
+
 .section-img{
     text-align: center;
     font-style: italic;
@@ -226,7 +266,9 @@ h5{
 .img6{
     background-color: #af80439f;
     width: 100%;
-
+}
+.img6 img{
+widht:300px;
 }
 section li{
     font-size: 30px;
@@ -234,11 +276,31 @@ section li{
     text-decoration: underline;
    
 }
+
+
+*/
+
+
 /*CSS contacto*/
+
+
+/*
+
+
 .comentarios{
     text-align: left;
 }
+
+
+*/
+
+
 /*CSS formulario de compra*/
+
+
+/*
+
+
 form{
     margin-top: 15px;
     padding: 20px;
@@ -269,41 +331,54 @@ form{
 .finalizar-pedido{
     font-size: 20px;
 }
+
+
+*/
+
+
+/*
+
+
 footer{
 background-color:#d6ba96; 
 text-align: right;
 padding: 30px;
 }
 
-@media screen and(max-width:1400px) {
+
+*/
+
+
+
+@media only screen and(max-width:1400px) {
     main{
         display: grid;
         grid-template-rows: 1fr;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
-@media screen and(max-width:1200px) {
+@media only screen and(max-width:1200px) {
     main{
         display: grid;
         grid-template-rows: 2fr;
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
-@media screen and(max-width:992px) {
+@media only screen and(max-width:992px) {
     main{
         display: grid;
         grid-template-rows: 3fr;
         grid-template-columns: 1fr 1fr;
     }
 }
-@media screen and(max-width:768px) {
+@media only screen and(max-width:768px) {
     main{
         display: grid;
         grid-template-rows: 4fr;
         grid-template-columns: 1fr;
     }
 }
-@media screen and(max-width:576px) {
+@media only screen and(max-width:576px) {
     main{
         display: grid;
         grid-template-rows: 5fr;

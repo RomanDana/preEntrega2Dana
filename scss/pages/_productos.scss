@@ -1,0 +1,176 @@
+.main-productos{
+    h2{
+        text-align: center;
+        color: $bg-oscuro;
+        padding: 20px;
+        font-size: 2.5rem;
+    }
+    h3{
+        line-height: 2rem;
+        font-size: 2rem;
+        text-align: center;
+        color: $bg-h3;
+        padding: 15px;
+    }
+    .section-img{
+        text-align: center;
+        font-style: italic;
+        justify-content: center;
+        .img1{
+            background-color: $bg-traslusido;
+            width: 100%;            
+            .carousel-item{
+                margin-top: 20px;
+                width: 400px;
+                .carousel-inner{
+                    img{
+                        
+                        margin-right: 50px;
+                    }
+                }
+            }         
+            .letra-img{
+                color: $bg-letra;
+                background-color: $bg-medio;
+            }
+        }
+        .img2{
+            background-color: $bg-traslusido;
+            width: 100%;
+            img{
+                width: 450px;
+                border-radius: 40px;
+                text-align: center;
+                margin-top: 15px;
+                border: double 5px $bg-oscuro;
+            }
+            .letra-img{
+                color: $bg-letra;
+                background-color: $bg-medio;
+            }
+        }
+        section{
+            .img3{
+                background-color: $bg-traslusido;
+                justify-content: center;
+                width: 100%;
+                img{
+                   text-align: center;
+                   width: 450px;
+                   margin: 20px; 
+                   border: double 5px $bg-oscuro;
+                }
+                .letra-img{
+                    color: $bg-letra;
+                    background-color: $bg-medio;
+                }
+            }
+        }
+        .img4{
+            background-color: $bg-traslusido;
+            width: 100%;
+            justify-content: center;
+            img{
+               width: 450px; 
+               border: double 5px $bg-oscuro;
+               margin: 20px;
+            }
+            .letra-img{
+                color: $bg-letra;
+                background-color: $bg-medio;
+            }
+        }
+    }
+    .section-img-3{   
+        .img5{
+            background-color: $bg-traslusido;
+            width: 100%;
+            .carousel-item{
+                margin: 20px;
+                width: 400px;
+                .carousel-inner{
+                    img{                     
+                        width: 100%;
+                        margin-bottom: 100px;
+                        padding: 30px;
+                        margin-right: 50px;
+                    }
+                }          
+            }
+        }        
+        div{
+            .letra-img{
+                color:$bg-letra;
+                background-color: $bg-medio;
+            }
+            h6{
+                background-color: $bg-traslusido;
+                line-height: 2rem;
+                font-size: 2rem;
+                text-align: center;
+                color: $bg-titulo;
+                padding: 12px;
+            }      
+        } 
+        div{
+            .descripcion-accesorios{
+                text-align: left;
+                li{
+                    font-size: 30px;
+                    font-weight: 20px;
+                    text-decoration: underline;
+                }
+                div{
+                    img{
+                        width: 300px;
+                        margin: 20px;
+                        border: double 5px $bg-oscuro;
+                    }
+                }
+                .letra-img{
+                    color: $bg-letra;
+                    background-color: $bg-medio;
+                }
+                .img-collar{
+                    img{
+                        width: 300px;
+                    }
+                }
+                .letra-img{
+                    color: $bg-letra;
+                    background-color: $bg-medio;
+                }
+            }
+            
+        } 
+       
+    } 
+    .img6{
+        background-color: $bg-traslusido;
+        width: 100%;
+        img{
+            margin: 20px;
+            text-align: center;
+            width: 450px;
+            border: double 5px $bg-oscuro;
+        }
+        .letra-img{
+            color: $bg-letra;
+            background-color: $bg-medio;
+        }
+    }   
+}
+.redes{
+    text-align: center;
+    color: $bg-h3;
+    h4{
+        line-height: 1rem;
+        font-size: 1rem;
+        text-align: center;
+        color: $bg-letra;
+        padding: 10px;
+    }
+    a{
+        text-align: center;
+    }
+}

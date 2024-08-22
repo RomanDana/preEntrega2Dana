@@ -1,0 +1,57 @@
+.navbar{
+    background: radial-gradient($bg-claro, $bg-medio);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    .container-fluid{
+        .navbar-brand{
+            .logo{
+                width: 150px;
+                padding: 15px;
+                margin-top: 5px;
+                border: double 5px $bg-oscuro;
+            }
+            .logo:hover{
+                transform: scale(1.1, 1.1);
+                transition: all 0.7s;
+                padding: 0;
+                margin: 10px;
+                border: double 5px $bg-letra;
+            }
+        }
+        .h1{
+            text-align: center;
+            color: $bg-letra;
+            padding: 15px;
+
+        }
+    }
+    .navbar-toggler{
+        .navbar-toggler-icon{
+            color: $bg-letra2;
+        }
+    }
+    .collapse{        
+        ul{
+            list-style-type: none;
+            li{
+                margin: 20px;
+                display: inline-block;
+                a{
+                    text-align: center;
+                    color: $bg-letra;
+                    font-size: 2rem;
+                    font-weight: bolder;
+                    text-decoration: none;
+                    border: $bg-oscuro 8px double;
+                    &:hover{
+                    color: $bg-claro;
+                    border: $bg-oscuro 8px double;
+                    background-color: $bg-letra;
+                    }  
+                }
+            }
+        }
+    }
+}
+

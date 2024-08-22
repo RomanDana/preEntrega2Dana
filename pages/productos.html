@@ -6,12 +6,15 @@
     <!--BOOTSTRAP-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!--CSS-->
-    <link rel="stylesheet" href="../estilos/style.css">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <!--animaciones-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!--font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-    <title>proyecto_final</title>
+    <title>Proyecto_final</title>
 </head>
 <body class="fondohuella">
     <header class="header">      
@@ -27,26 +30,26 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul>
                     <li>
-                        <a href="../index.html">inicio</a>
+                        <a href="../index.html">Inicio</a>
                     </li>
                     <li>
-                        <a href="nosotros.html">nosotros</a>
+                        <a href="nosotros.html">Nosotros</a>
                     </li>    
                     <li>
-                        <a href="productos.html">productos</a>
+                        <a href="productos.html">Productos</a>
                     </li> 
                     <li>
-                        <a href="formulario.html">comprar</a>
+                        <a href="formulario.html">Comprar</a>
                     </li>
                     <li>
-                        <a href="contacto.html">contacto y comentarios</a>
+                        <a href="contacto.html">Contacto y comentarios</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
     <main class="main-productos">
-        <h2>nuestros productos</h2>
+        <h2>Nuestros productos</h2>
         <h3>Chapitas Identificatorias</h3>
         <p>Nuestras chapitas identificatorias son el corazón de Keko Shop. Cada una está cuidadosamente diseñada para incluir el nombre de tu mascota y un número de contacto, proporcionando tranquilidad en caso de pérdida. Ofrecemos una amplia gama de más de 150 diseños diferentes, garantizando que encuentres el estilo perfecto que se ajuste a la personalidad única de tu compañero peludo.</p>
         <section class="section-img">
@@ -63,7 +66,7 @@
                       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
                       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
                     </div>
-                    <div class="carousel-inner">
+                    <div class="carousel-inner" data-aos="zoom-in">
                         <div class="carousel-item active">
                             <img src="../imagenes/chapitas.jpg" class="d-block w-100" alt="exhibidor">
                         </div>
@@ -95,28 +98,28 @@
                       <span class="visually-hidden">Next</span>
                     </button>
                   </div>
-                  <p class="letra-img">hay 6 tipos de chapitas para que se lleve tu mascota</p>
+                  <p class="letra-img">Hay 6 tipos de chapitas para que se lleve tu mascota</p>
             </div>
             <!--fin del carrousel-->
-            <div class="img2" >
-                <img src="../imagenes/letras3.jpg" alt="tipos de letras">
-                <p class="letra-img">letras y numeros disponibles para las chapitas que escojas</p>
+            <div class="img2">
+                <img src="../imagenes/letras3.jpg" alt="tipos de letras" data-aos="zoom-in">
+                <p class="letra-img">Letras y numeros disponibles para las chapitas que escojas</p>
             </div>   
         <section>
           <div class="img3">
-            <img src="../imagenes/1.jpg" alt="diseños de chapitas 1">
-            <img src="../imagenes/2.jpg" alt="diseños de chapitas 2">
-            <p class="letra-img">con esta variedad de diseños cuenta keko.shop disponible</p>
+            <img src="../imagenes/1.jpg" alt="diseños de chapitas 1" data-aos="zoom-in">
+            <img src="../imagenes/2.jpg" alt="diseños de chapitas 2" data-aos="zoom-in">
+            <p class="letra-img">Con esta variedad de diseños cuenta keko.shop disponible</p>
           </div>        
           <div class="img4">
-            <img src="../imagenes/exhibidor.jpg" alt="exhibidor de chapitas">  
-            <p class="letra-img">estos son algunos de nuestros ejemplos para que tu mascota quede coqueta</p> 
+            <img src="../imagenes/exhibidor.jpg" alt="exhibidor de chapitas" data-aos="zoom-in">  
+            <p class="letra-img">Estos son algunos de nuestros ejemplos para que tu mascota quede coqueta</p> 
           </div>
         </section>
         <section class="section-img-3">         
           <div class="img5">
             <div id="carouselExample" class="carousel slide w-25 mx-auto">
-              <div class="carousel-inner">
+              <div class="carousel-inner" data-aos="zoom-in">
                 <div class="carousel-item active">
                   <img src="../imagenes/combo completo 1.jpg" class="d-block w-100" alt="combo completo 1">
                 </div>
@@ -148,47 +151,51 @@
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
-            <p class="letra-img">En Keko Shop, también nos especializamos en accesorios prácticos y elegantes para tu mascota</p>
-            <h6 class="titulo-accesorios">Accesorios para Mascotas</h6>
             <div>
+              <p class="letra-img">En Keko Shop, también nos especializamos en accesorios prácticos y elegantes para tu mascota</p>
+              <h6 class="titulo-accesorios">Accesorios para Mascotas</h6>
+            </div>           
+            <div>              
               <ul class="descripcion-accesorios">
                   <li>Cinturón para el Auto</li>
                   <div>
-                    <img src="../imagenes/cinturon de seguridad.jpg" alt="cinturon de seguridad">
+                    <img src="../imagenes/cinturon de seguridad.jpg" alt="cinturon de seguridad" data-aos="zoom-in">
                   </div>
                     <p class="letra-img">Pensado para la seguridad y comodidad de tu mascota durante los viajes en automóvil.</p>
                   <li>Correas</li>
                   <div>
-                    <img src="../imagenes/correa.jpg" alt="correa">
+                    <img src="../imagenes/correa.jpg" alt="correa" data-aos="zoom-in">
                   </div>
-                    <p class="letra-img"> colores amarillo, fucsia, rojo, violeta, azul, verde y negro, nuestras correas están diseñadas para brindar control y confort durante los paseos diarios.</p>
+                    <p class="letra-img"> Colores amarillo, fucsia, rojo, violeta, azul, verde y negro, nuestras correas están diseñadas para brindar control y confort durante los paseos diarios.</p>
                   <li>Pretales y Collares</li> 
                   <div>
-                    <img src="../imagenes/pretal.jpg" alt="pretal">
+                    <img src="../imagenes/pretal.jpg" alt="pretal" data-aos="zoom-in">
                   </div>
-                  <div  class="img-collar">
-                    <img src="../imagenes/collar.jpg" alt="collar">
+                  <div class="img-collar">
+                    <img src="../imagenes/collar.jpg" alt="collar" data-aos="zoom-in">
                   </div>
                     <p class="letra-img">Disponibles en varios tamañosXS, S, M, L, XL, XXL nuestros pretales y collares no solo son funcionales sino que también son una declaración de estilo. Personalizables con hasta 7 colores diferentes al igual que las correas, puedes combinarlos para reflejar la personalidad de tu mascota.</p>
               </ul>
-            </div>          
-          </div>
-            <div class="img6">  
-                <img src="../imagenes/colores.jpg" alt="colores de accesorios para mascotas">
-                <p class="letra-img">en keko disponemos de esta variedad de colores para los accesorios de tu mascota!!</p>
-            </div>  
-        </section>     
+            </div>                    
+        </section>
+        <div class="img6">  
+              <img src="../imagenes/colores.jpg" alt="colores de accesorios para mascotas" data-aos="zoom-in">
+              <p class="letra-img">En keko disponemos de esta variedad de colores para los accesorios de tu mascota!!</p>
+        </div>       
     </main>
     <section class="redes">
-        <h4>puedes ver mas sobre nuestros productos en</h4>
-        <a href="https://www.instagram.com/keko.shop.ok/">instagram</a>
-        <a href="https://listado.mercadolibre.com.ar/_CustId_40105878?item_id=MLA1112694191&category_id=MLA370581&seller_id=40105878&client=recoview-selleritems&recos_listing=true#origin=vip&component=sellerData&typeSeller=classic">mercado libre</a>
-        <a href="https://www.facebook.com/profile.php?id=100066787134940">facebook</a>
+        <h4>Puedes ver mas sobre nuestros productos en</h4>
+        <a href="https://www.instagram.com/keko.shop.ok/">Instagram</a>
+        <a href="https://listado.mercadolibre.com.ar/_CustId_40105878?item_id=MLA1112694191&category_id=MLA370581&seller_id=40105878&client=recoview-selleritems&recos_listing=true#origin=vip&component=sellerData&typeSeller=classic">Mercado libre</a>
+        <a href="https://www.facebook.com/profile.php?id=100066787134940">Facebook</a>
    </section>
     <footer>
-        <h4> 📞telefono:1169456315</h4>
-        <h4> 🖨️ email:keko.shop@hotmail.com</h4>
+        <h4> 📞Teléfono:1169456315</h4>
+        <h4> 🖨️ Email:keko.shop@hotmail.com</h4>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
