@@ -1,19 +1,19 @@
-main{
+.main-nosotoros{
     h2{
         text-align: center;
         color: $bg-oscuro;
         padding: 20px;
-        font-size: 2.5rem;
+        font-size: 2.7rem;
     }
     h3{
         line-height: 2rem;
-        font-size: 2rem;
+        font-size: 2.2rem;
         text-align: center;
         color: $bg-h3;
         padding: 12px;
     }
     p{
-        line-height: 1.5rem;
+        line-height: 2rem;
         font-size: 1.5rem;
         text-align: center;
         color: $bg-letra2;
@@ -30,8 +30,10 @@ main{
     }
     h5{
         text-align: center;
-        font-size: 15px;
+        font-size: 1.1rem;
         padding: 20px;
+        color: $bg-letra2;
+        text-decoration: underline double;
     }
     .conclusion{
         padding: 30px;

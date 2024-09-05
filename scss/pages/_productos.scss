@@ -3,32 +3,46 @@
         text-align: center;
         color: $bg-oscuro;
         padding: 20px;
-        font-size: 2.5rem;
+        font-size: 2.7rem;
     }
     h3{
         line-height: 2rem;
-        font-size: 2rem;
+        font-size: 2.2rem;
         text-align: center;
         color: $bg-h3;
         padding: 15px;
     }
+    p{
+        line-height: 1.8rem;
+        font-size: 1.6rem;
+        text-align: center;
+        color:$bg-letra2;
+        margin: 20px;
+        padding: 20px;   
+    }
     .section-img{
         text-align: center;
-        font-style: italic;
         justify-content: center;
         .img1{
             background-color: $bg-traslusido;
-            width: 100%;            
-            .carousel-item{
-                margin-top: 20px;
-                width: 400px;
+            width: 100%;
+            .carousel{
+                width: 450px;
                 .carousel-inner{
-                    img{
-                        
-                        margin-right: 50px;
-                    }
-                }
-            }         
+                    justify-content: center;
+                    text-align: center;
+                    margin: auto;
+                    width: auto;
+                    height: auto;
+                    .carousel-item{  
+                        margin-top: 20px; 
+                         img{                       
+                            justify-content: center;
+                            margin-left: 57px;
+                        }
+                    }        
+                }                       
+            }                         
             .letra-img{
                 color: $bg-letra;
                 background-color: $bg-medio;
@@ -85,18 +99,18 @@
         .img5{
             background-color: $bg-traslusido;
             width: 100%;
-            .carousel-item{
-                margin: 20px;
-                width: 400px;
-                .carousel-inner{
-                    img{                     
-                        width: 100%;
-                        margin-bottom: 100px;
-                        padding: 30px;
-                        margin-right: 50px;
-                    }
-                }          
-            }
+            .carousel{
+                width: 450px; 
+                .carousel-inner{                                          
+                   .carousel-item{         
+                        img{                     
+                            margin-bottom: 40px;
+                            margin-top: 20px;
+                            margin-left: 57px;
+                        }
+                    }          
+                } 
+            }           
         }        
         div{
             .letra-img{
@@ -108,7 +122,7 @@
                 line-height: 2rem;
                 font-size: 2rem;
                 text-align: center;
-                color: $bg-titulo;
+                color: $bg-oscuro;
                 padding: 12px;
             }      
         } 
@@ -158,19 +172,8 @@
             color: $bg-letra;
             background-color: $bg-medio;
         }
-    }   
-}
-.redes{
-    text-align: center;
-    color: $bg-h3;
-    h4{
-        line-height: 1rem;
-        font-size: 1rem;
-        text-align: center;
-        color: $bg-letra;
-        padding: 10px;
     }
-    a{
-        text-align: center;
-    }
-}
+} 
+
+
+

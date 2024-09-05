@@ -9,54 +9,52 @@
 
 body {
   background-color: rgba(175, 128, 67, 0.9960784314);
-}
-body .redes {
-  text-align: center;
-  color: rgba(175, 128, 67, 0.9960784314);
-}
-body h2 {
-  text-align: center;
-  color: #886332;
-  padding: 20px;
-  font-size: 2.5rem;
-}
-body h3 {
-  line-height: 2rem;
-  font-size: 2rem;
-  text-align: center;
-  color: #cf9951;
-  padding: 12px;
-}
-body p {
-  line-height: 1.5rem;
-  font-size: 1.5rem;
-  text-align: center;
-  color: black;
-  margin: 10px;
-  padding: 15px;
+  font-family: Playpen_Sans;
 }
 
-head {
-  font-family: "Roboto Slab", serif;
+@font-face {
+  font-family: Playpen_Sans;
+  src: url(/fuentes/PlaypenSans-VariableFont_wght.ttf);
 }
-
-header {
+.header {
   text-align: center;
   background: radial-gradient(#d6ba96, rgba(175, 128, 67, 0.9960784314), #886332);
   padding: 25px;
-}
-header .header {
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 1;
+  width: 100%;
 }
 
 footer {
-  background: radial-gradient(#d6ba96, rgba(175, 128, 67, 0.9960784314));
-  text-align: center;
+  background: radial-gradient(#d6ba96, rgba(175, 128, 67, 0.9960784314), #886332);
   padding: 30px;
+  text-align: center;
 }
 footer h4 {
+  line-height: 1rem;
+  font-size: 1rem;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+footer .footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 10px;
+}
+footer .footer-icons a {
+  color: black;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+footer .footer-icons a:hover {
+  color: white;
+}
+footer .h4-footer {
+  margin: 0px;
+  color: black;
   font-size: 1.2rem;
 }
 
@@ -143,8 +141,12 @@ footer h4 {
     grid-template-columns: 1fr;
   }
 }
+main {
+  margin-top: 200px;
+}
 main div .descripcion {
-  font-size: 25px;
+  line-height: 1.8rem;
+  font-size: 1.6rem;
   text-align: center;
   color: black;
   margin: 20px;
@@ -181,44 +183,47 @@ main div div img {
   height: auto;
   border-radius: 20px;
   margin-left: 30px;
+  margin-bottom: 30px;
   border: double 5px #886332;
 }
 
-main h2 {
+.main-nosotoros h2 {
   text-align: center;
   color: #886332;
   padding: 20px;
-  font-size: 2.5rem;
+  font-size: 2.7rem;
 }
-main h3 {
+.main-nosotoros h3 {
   line-height: 2rem;
-  font-size: 2rem;
+  font-size: 2.2rem;
   text-align: center;
   color: #cf9951;
   padding: 12px;
 }
-main p {
-  line-height: 1.5rem;
+.main-nosotoros p {
+  line-height: 2rem;
   font-size: 1.5rem;
   text-align: center;
   color: black;
   margin: 10px;
   padding: 15px;
 }
-main .mapa {
+.main-nosotoros .mapa {
   text-align: center;
   padding: 20px;
   object-fit: cover;
 }
-main .mapa iframe {
+.main-nosotoros .mapa iframe {
   text-align: center;
 }
-main h5 {
+.main-nosotoros h5 {
   text-align: center;
-  font-size: 15px;
+  font-size: 1.1rem;
   padding: 20px;
+  color: black;
+  text-decoration: underline double;
 }
-main .conclusion {
+.main-nosotoros .conclusion {
   padding: 30px;
 }
 
@@ -226,30 +231,47 @@ main .conclusion {
   text-align: center;
   color: #886332;
   padding: 20px;
-  font-size: 2.5rem;
+  font-size: 2.7rem;
 }
 .main-productos h3 {
   line-height: 2rem;
-  font-size: 2rem;
+  font-size: 2.2rem;
   text-align: center;
   color: #cf9951;
   padding: 15px;
 }
+.main-productos p {
+  line-height: 1.8rem;
+  font-size: 1.6rem;
+  text-align: center;
+  color: black;
+  margin: 20px;
+  padding: 20px;
+}
 .main-productos .section-img {
   text-align: center;
-  font-style: italic;
   justify-content: center;
 }
 .main-productos .section-img .img1 {
   background-color: rgba(175, 128, 67, 0.6235294118);
   width: 100%;
 }
-.main-productos .section-img .img1 .carousel-item {
-  margin-top: 20px;
-  width: 400px;
+.main-productos .section-img .img1 .carousel {
+  width: 450px;
 }
-.main-productos .section-img .img1 .carousel-item .carousel-inner img {
-  margin-right: 50px;
+.main-productos .section-img .img1 .carousel .carousel-inner {
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  width: auto;
+  height: auto;
+}
+.main-productos .section-img .img1 .carousel .carousel-inner .carousel-item {
+  margin-top: 20px;
+}
+.main-productos .section-img .img1 .carousel .carousel-inner .carousel-item img {
+  justify-content: center;
+  margin-left: 57px;
 }
 .main-productos .section-img .img1 .letra-img {
   color: white;
@@ -303,15 +325,13 @@ main .conclusion {
   background-color: rgba(175, 128, 67, 0.6235294118);
   width: 100%;
 }
-.main-productos .section-img-3 .img5 .carousel-item {
-  margin: 20px;
-  width: 400px;
+.main-productos .section-img-3 .img5 .carousel {
+  width: 450px;
 }
-.main-productos .section-img-3 .img5 .carousel-item .carousel-inner img {
-  width: 100%;
-  margin-bottom: 100px;
-  padding: 30px;
-  margin-right: 50px;
+.main-productos .section-img-3 .img5 .carousel .carousel-inner .carousel-item img {
+  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-left: 57px;
 }
 .main-productos .section-img-3 div .letra-img {
   color: white;
@@ -322,7 +342,7 @@ main .conclusion {
   line-height: 2rem;
   font-size: 2rem;
   text-align: center;
-  color: #98713f;
+  color: #886332;
   padding: 12px;
 }
 .main-productos .section-img-3 div .descripcion-accesorios {
@@ -364,34 +384,19 @@ main .conclusion {
   background-color: rgba(175, 128, 67, 0.9960784314);
 }
 
-.redes {
-  text-align: center;
-  color: #cf9951;
-}
-.redes h4 {
-  line-height: 1rem;
-  font-size: 1rem;
-  text-align: center;
-  color: white;
-  padding: 10px;
-}
-.redes a {
-  text-align: center;
-}
-
 main h2 {
   text-align: center;
   color: #886332;
   padding: 20px;
-  font-size: 2.5rem;
+  font-size: 2.7rem;
 }
 main p {
-  line-height: 1.5rem;
-  font-size: 1.5rem;
+  line-height: 1.8rem;
+  font-size: 1.6rem;
   text-align: center;
   color: black;
-  margin: 10px;
-  padding: 15px;
+  margin: 20px;
+  padding: 20px;
 }
 main .formulario {
   margin-top: 20px;
@@ -414,48 +419,75 @@ main .formulario div select {
 main .formulario .finalizar-pedido {
   font-size: 20px;
 }
+main .formulario .finalizar-pedido input {
+  background-color: rgba(175, 128, 67, 0.9960784314);
+  color: black;
+}
+main .formulario .finalizar-pedido input:hover {
+  background-color: #886332;
+  color: white;
+}
 
 main h2 {
   text-align: center;
   color: #886332;
   padding: 20px;
-  font-size: 2.5rem;
+  font-size: 2.7rem;
 }
 main p {
-  line-height: 1.5rem;
-  font-size: 1.5rem;
+  line-height: 1.8rem;
+  font-size: 1.6rem;
   text-align: center;
   color: black;
-  margin: 10px;
-  padding: 15px;
+  margin: 20px;
+  padding: 20px;
 }
 
 .redes {
   text-align: center;
   color: #cf9951;
 }
-.redes h4 {
-  line-height: 1rem;
-  font-size: 1rem;
+.redes h3 {
+  line-height: 2rem;
+  font-size: 2.2rem;
   text-align: center;
-  color: white;
-  padding: 10px;
+  color: #cf9951;
+  padding: 12px;
 }
 .redes a {
   text-align: center;
+  color: white;
+  margin: 10px;
+}
+.redes a:hover {
+  color: #886332;
+  font-size: 1.2rem;
 }
 
 p {
-  line-height: 1.5rem;
-  font-size: 1.5rem;
+  line-height: 1.8rem;
+  font-size: 1.6rem;
   text-align: center;
   color: black;
-  margin: 10px;
-  padding: 15px;
+  margin: 20px;
+  padding: 20px;
 }
 
 .comentarios {
   text-align: left;
+}
+.comentarios textarea {
+  border: double 5px #886332;
+  color: white;
+  background-color: rgba(175, 128, 67, 0.9960784314);
+}
+.comentarios input {
+  background-color: rgba(175, 128, 67, 0.9960784314);
+  color: black;
+}
+.comentarios input:hover {
+  background-color: #886332;
+  color: white;
 }
 
 /*# sourceMappingURL=estilo.css.map */
