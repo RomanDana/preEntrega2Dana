@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Playpen_Sans;
+  src: url(/fuentes/static/PlaypenSans-Regular.ttf);
+}
 * {
   padding: 0;
   margin: 0;
@@ -12,10 +16,6 @@ body {
   font-family: Playpen_Sans;
 }
 
-@font-face {
-  font-family: Playpen_Sans;
-  src: url(/fuentes/PlaypenSans-VariableFont_wght.ttf);
-}
 .header {
   text-align: center;
   background: radial-gradient(#d6ba96, rgba(175, 128, 67, 0.9960784314), #886332);
